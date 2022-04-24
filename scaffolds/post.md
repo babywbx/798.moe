@@ -1,5 +1,9 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
+custom_url: 
+categories: 
+tags: 
+mp3: 
+cover: 
 ---
