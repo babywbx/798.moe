@@ -3,19 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 798.moe
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: 798
+language: zh-cn
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: https://798.moe
+permalink: :custom_url.html
 permalink_defaults:
+  custom_url: index
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
@@ -97,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: diaspora
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
